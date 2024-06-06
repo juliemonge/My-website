@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #d896ce;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    background: #333;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: .5rem 1rem;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background: #555;
+}
+
+section {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.github-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #333; /* GitHub's color theme */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.github-button:hover {
+    background-color: #555;
+    /* Add a hover effect */
+}
