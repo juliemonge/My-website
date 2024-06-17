@@ -21,10 +21,19 @@
 
     <section id="about">
         <h2>Min Blogpost i INF112</h2>
-        <embed src="blog.txt">
+        <pre id="file-content"></pre>
         <p></p>
         
     </section>
+
+
+    <script>
+        fetch('blog.txt')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('file-content').textContent = data;
+        });
+    </script>
 
     <footer>
         <p>© 2023 Julies nettside</p>
