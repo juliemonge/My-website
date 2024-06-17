@@ -4,13 +4,24 @@
     <title>Julies Website</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            flex-direction: column;
+        }
         #file-content {
-            width: 80%;
+            width: 80%; /* Adjust the width as needed */
+            max-width: 600px; /* Optional: Set a maximum width */
             height: 300px; /* Adjust the height as needed */
             overflow-y: scroll;
             white-space: pre-wrap; /* Wrap the text to avoid horizontal scrolling */
             border: 1px solid #ccc; /* Optional: Add a border for visual clarity */
             padding: 10px; /* Optional: Add padding for better readability */
+            box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+            background-color: #f9f9f9; /* Optional: Background color for better readability */
         }
     </style>
 </head>
